@@ -3,8 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matt Novoselov's Portfolio</title>
+    <title>Matt Novoselov — iOS &amp; visionOS Software Engineer</title>
+    <meta name="description" content="Matt Novoselov is an iOS and visionOS software engineer at Sony building award-winning apps, spatial experiences, and Swift tools.">
+    <meta name="author" content="Matt Novoselov">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#f8fafc">
+
+    <link rel="canonical" href="https://novoselov.dev/">
     <link rel="icon" href="https://gravatar.com/avatar/a2f97ee6edca56d41b9186831955d41194c363553ac3ca0792849bdd241d2376?s=200" type="image/png">
+    <link rel="preconnect" href="https://a.coffee">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Matt Novoselov">
+    <meta property="og:title" content="Matt Novoselov — iOS &amp; visionOS Software Engineer">
+    <meta property="og:description" content="Award-winning apps, spatial experiences, and Swift tools by iOS and visionOS software engineer Matt Novoselov.">
+    <meta property="og:url" content="https://novoselov.dev/">
+    <meta property="og:image" content="https://novoselov.dev/static/matt-novoselov-og.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Swift Student Challenge Winner artwork">
+    <meta property="profile:first_name" content="Matt">
+    <meta property="profile:last_name" content="Novoselov">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Matt Novoselov — iOS &amp; visionOS Software Engineer">
+    <meta name="twitter:description" content="Award-winning apps, spatial experiences, and Swift tools by iOS and visionOS software engineer Matt Novoselov.">
+    <meta name="twitter:image" content="https://novoselov.dev/static/matt-novoselov-og.jpg">
+    <meta name="twitter:image:alt" content="Swift Student Challenge Winner artwork">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://novoselov.dev/#website",
+                "url": "https://novoselov.dev/",
+                "name": "Matt Novoselov",
+                "alternateName": "novoselov.dev"
+            },
+            {
+                "@type": "ProfilePage",
+                "@id": "https://novoselov.dev/#profile",
+                "url": "https://novoselov.dev/",
+                "name": "Matt Novoselov — iOS & visionOS Software Engineer",
+                "description": "Portfolio of Matt Novoselov, an iOS and visionOS software engineer at Sony.",
+                "isPartOf": {
+                    "@id": "https://novoselov.dev/#website"
+                },
+                "mainEntity": {
+                    "@id": "https://novoselov.dev/#matt"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://novoselov.dev/#matt",
+                "name": "Matt Novoselov",
+                "url": "https://novoselov.dev/",
+                "image": "https://gravatar.com/avatar/a2f97ee6edca56d41b9186831955d41194c363553ac3ca0792849bdd241d2376?s=1200",
+                "jobTitle": "iOS and visionOS Software Engineer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Sony"
+                },
+                "sameAs": [
+                    "https://github.com/matt-novoselov",
+                    "https://linkedin.com/in/matt-novoselov",
+                    "https://a.coffee/matt"
+                ]
+            }
+        ]
+    }
+    </script>
+
     <style>
         html, body {
             margin: 0;
@@ -19,9 +92,56 @@
             border: none; 
             display: block;
         }
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            clip-path: inset(50%);
+            white-space: nowrap;
+            border: 0;
+        }
     </style>
 </head>
 <body>
-    <iframe src="https://a.coffee/matt"></iframe>
+    <main id="portfolio-summary" class="visually-hidden">
+        <header>
+            <h1>Matt Novoselov</h1>
+            <p id="portfolio-description">iOS and visionOS Software Engineer at Sony.</p>
+        </header>
+
+        <section aria-labelledby="selected-projects">
+            <h2 id="selected-projects">Selected projects</h2>
+
+            <article>
+                <h3>Findy</h3>
+                <p>An award-winning app that helps people with vision loss locate their belongings using AI and augmented reality.</p>
+            </article>
+
+            <article>
+                <h3>Topple Tower</h3>
+                <p>A multiplayer Jenga game for visionOS with SharePlay, realistic physics, and hand-tracking controls.</p>
+            </article>
+
+            <article>
+                <h3>RoboKit</h3>
+                <p>A Swift framework for controlling robots from visionOS.</p>
+            </article>
+
+            <article>
+                <h3>Yaha</h3>
+                <p>An offline emergency app with country-specific emergency numbers, first-aid tips, and conversation support.</p>
+            </article>
+        </section>
+    </main>
+
+    <iframe
+        src="https://a.coffee/matt"
+        title="Matt Novoselov's portfolio"
+        aria-describedby="portfolio-description"
+    ></iframe>
 </body>
 </html>
